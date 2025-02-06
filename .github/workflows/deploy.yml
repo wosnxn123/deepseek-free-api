@@ -37,8 +37,8 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "wosnxn123-deepseek-fr-36"
-          entrypoint: "jsr:@deno/nextjs-start"
-          root: "."
-          include: .next, public
+          project: "wosnxn123-deepseek-fr-99"
+          entrypoint: "index.js"
+          root: "build"
+          
           
